@@ -30,4 +30,6 @@ See `example_app/views.py`
 
 [DRF issue on Github](https://github.com/encode/django-rest-framework/issues/1005)
 
+Kudos to [rhunwicks](https://github.com/rhunwicks) for the initial patch.
+
 --> **PR and suggestions welcome!**
