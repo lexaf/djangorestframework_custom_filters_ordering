@@ -1,0 +1,81 @@
+[
+    {
+        "fields": {
+            "name": "london"
+        },
+        "model": "example_app.city",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "name": "berlin"
+        },
+        "model": "example_app.city",
+        "pk": 2
+    },
+
+
+
+    {
+        "fields": {
+            "name": "Ye Olde Curiosity Shop",
+            "city": 1
+        },
+        "model": "example_app.shop",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "name": "Amazooon",
+            "city": 2
+        },
+        "model": "example_app.shop",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "name": "Barnes and Lowborns",
+            "city": 2
+        },
+        "model": "example_app.shop",
+        "pk": 3
+    },
+
+
+
+    {
+         "pk": 1,
+         "model": "example_app.book",
+         "fields": {
+             "title": "Fahrenheit 451",
+             "shop": [1,2]
+         }
+    },
+    {
+         "pk": 2,
+         "model": "example_app.book",
+         "fields": {
+             "title": "Motherland",
+             "shop": [1,2]
+         }
+    },
+    {
+         "pk": 3,
+         "model": "example_app.book",
+        "fields": {
+             "title": "Duckies",
+             "shop": [2,3]
+         }
+    },
+    {
+        "pk": 4,
+        "model": "example_app.book",
+        "fields": {
+            "title": "Earthlings",
+            "shop": [2,3]
+         }
+    }
+
+
+
+]
