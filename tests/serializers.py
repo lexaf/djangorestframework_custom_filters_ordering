@@ -5,6 +5,14 @@ from rest_framework import serializers
 
 from . import models
 
+class AuthorSerializer(serializers.ModelSerializer):
+
+    name = serializers.CharField()
+
+    class Meta:
+        model = models.Author
+        fields = ['name']
+
 
 class CitySerializer(serializers.ModelSerializer):
 
@@ -28,8 +36,9 @@ class ShopSerializer(serializers.ModelSerializer):
 class BookSerializer(serializers.ModelSerializer):
 
     title = serializers.CharField()
+    author = AuthorSerializer()
     shop = ShopSerializer(many=True)
 
     class Meta:
         model = models.Book
-        fields = ['title', 'shop']
+        fields = ['title', 'shop', 'author']

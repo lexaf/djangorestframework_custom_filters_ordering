@@ -1,86 +1,113 @@
 [
-    {
-        "fields": {
-            "name": "london"
-        },
-        "model": "tests.city",
-        "pk": 1
+  {
+    "fields": {
+      "name": "london"
     },
-    {
-        "fields": {
-            "name": "berlin"
-        },
-        "model": "tests.city",
-        "pk": 2
+    "model": "tests.city",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "name": "berlin"
     },
-    {
-        "fields": {
-            "name": "stockolm"
-        },
-        "model": "tests.city",
-        "pk": 3
+    "model": "tests.city",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "name": "stockolm"
     },
+    "model": "tests.city",
+    "pk": 3
+  },
 
 
-    {
-        "fields": {
-            "name": "Ye Olde Curiosity Shoppe",
-            "city": 1
-        },
-        "model": "tests.shop",
-        "pk": 1
+  {
+    "fields": {
+      "name": "Jenny Garth"
     },
-    {
-        "fields": {
-            "name": "Amazooon",
-            "city": 2
-        },
-        "model": "tests.shop",
-        "pk": 2
+    "model": "tests.author",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "name": "Sonny Leveln"
     },
-    {
-        "fields": {
-            "name": "Barnes and Lowborns",
-            "city": 3
-        },
-        "model": "tests.shop",
-        "pk": 3
+    "model": "tests.author",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "name": "Ray Bradbury"
     },
+    "model": "tests.author",
+    "pk": 3
+  },
+
+
+  {
+    "fields": {
+      "name": "Ye Olde Curiosity Shoppe",
+      "city": 1
+    },
+    "model": "tests.shop",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "name": "Amazooon",
+      "city": 2
+    },
+    "model": "tests.shop",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "name": "Barnes and Lowborns",
+      "city": 3
+    },
+    "model": "tests.shop",
+    "pk": 3
+  },
 
 
 
-    {
-         "pk": 1,
-         "model": "tests.book",
-         "fields": {
-             "title": "Fahrenheit 451",
-             "shop": [1,2]
-         }
-    },
-    {
-         "pk": 2,
-         "model": "tests.book",
-         "fields": {
-             "title": "Motherland",
-             "shop": [1,2]
-         }
-    },
-    {
-         "pk": 3,
-         "model": "tests.book",
-        "fields": {
-             "title": "Duckies",
-             "shop": [3,2]
-         }
-    },
-    {
-        "pk": 4,
-        "model": "tests.book",
-        "fields": {
-            "title": "Earthlings",
-            "shop": [2,3]
-         }
+  {
+    "pk": 1,
+    "model": "tests.book",
+    "fields": {
+      "title": "Fahrenheit 451",
+      "shop": [1,2],
+      "author": 3
     }
+  },
+  {
+    "pk": 2,
+    "model": "tests.book",
+    "fields": {
+      "title": "Motherland",
+      "shop": [1,2],
+      "author": 1
+    }
+  },
+  {
+    "pk": 3,
+    "model": "tests.book",
+    "fields": {
+      "title": "Duckies",
+      "shop": [3,2],
+      "author": 2
+    }
+  },
+  {
+    "pk": 4,
+    "model": "tests.book",
+    "fields": {
+      "title": "Earthlings",
+      "shop": [2,3],
+      "author": 2
+    }
+  }
 
 
 

@@ -34,6 +34,7 @@ class RelatedOrderingFilter(filters.OrderingFilter):
             # foreign key
             if field.remote_field and len(components) == 2:
                 return self.is_valid_field(field.related_model, components[1])
+
             return True
         except FieldDoesNotExist:
             return False
