@@ -10,7 +10,7 @@ Still work in progress (a.k.a. "works for me")
 
 ## Requirements
 
-At the moment Django >= 1.10, DRF probably >= 3.x. Python 2.7 and 3.x (not tested yet).
+At the moment Django >= 1.10, DRF probably >= 3.x. Python 2.7 and 3.x (not tested on all configurations).
 
 ## Installation
 
