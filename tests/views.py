@@ -1,10 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import absolute_import
 
-from django.core.exceptions import PermissionDenied
-from django.http import Http404
 from rest_framework import generics
-from rest_framework.exceptions import ParseError
 from . import filters
 from . import models
 from . import serializers

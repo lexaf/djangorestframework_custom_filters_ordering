@@ -6,7 +6,7 @@ import unittest
 from django.test import TestCase
 from django.test.client import Client
 
-from .models import City, Shop, Book
+from .models import Book
 
 
 class OrderingTestCase(TestCase):

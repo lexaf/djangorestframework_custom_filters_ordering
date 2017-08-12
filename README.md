@@ -18,13 +18,11 @@ At the moment Django >= 1.10, DRF probably >= 3.x. Python 2.7 and 3.x (not teste
 
 ## Usage
 
-See `example_app/views.py`
+Include in your `views.py` file. Don't forget to specify `ordering_fields`. See `tests/views.py`.
 
 ## Run tests
 
-`cd example_app`
-
-`python manage test example_app`
+`python run_tests.py tests.test_serializers`
 
 ## Reference
 

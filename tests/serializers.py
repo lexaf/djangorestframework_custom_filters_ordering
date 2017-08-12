@@ -5,6 +5,7 @@ from rest_framework import serializers
 
 from . import models
 
+
 class AuthorSerializer(serializers.ModelSerializer):
 
     name = serializers.CharField()
