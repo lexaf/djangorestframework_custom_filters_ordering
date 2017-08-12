@@ -5,3 +5,4 @@ dist
 virtual
 *.pyc
 activate.sh
+.tox
