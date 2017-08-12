@@ -120,7 +120,7 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
     'rest_framework',
-    'example_app'
+    # 'example_app'
 )
 
 # A sample logging configuration. The only tangible logging
@@ -171,7 +171,7 @@ REST_FRAMEWORK = {
         '%Y-%m-%dT%H:%M:%SZ'
     ),
     'DEFAULT_FILTER_BACKENDS': [
-        'example_app.filters.RelatedOrderingFilter',
+        'filters.RelatedOrderingFilter',
     ],
 
 }

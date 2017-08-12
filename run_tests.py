@@ -16,7 +16,7 @@ if not settings.configured:
         INSTALLED_APPS=(
             'django.contrib.contenttypes',
             'django.contrib.auth',
-            'rest_framework_custom_filters_ordering',
+            'djangorestframework_custom_filters_ordering',
             'tests',
         ),
         MIDDLEWARE_CLASSES=(
@@ -28,7 +28,9 @@ if not settings.configured:
         USE_TZ=True,
         SECRET_KEY='foobar',
         REST_FRAMEWORK={
-            'EXCEPTION_HANDLER': 'rest_framework_custom_exceptions.exceptions.simple_error_handler',
+            'DEFAULT_FILTER_BACKENDS': [
+                'djangorestframework_custom_filters_ordering.filters.RelatedOrderingFilter',
+            ],
         }
     )
 

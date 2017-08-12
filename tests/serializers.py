@@ -12,7 +12,7 @@ class CitySerializer(serializers.ModelSerializer):
 
     class Meta:
         model = models.City
-        fields = '__all__'
+        fields = ['name']
 
 
 class ShopSerializer(serializers.ModelSerializer):
@@ -22,7 +22,7 @@ class ShopSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = models.Shop
-        fields = '__all__'
+        fields = ['name', 'city']
 
 
 class BookSerializer(serializers.ModelSerializer):
@@ -32,4 +32,4 @@ class BookSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = models.Book
-        fields = '__all__'
+        fields = ['title', 'shop']

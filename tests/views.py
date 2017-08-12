@@ -6,7 +6,6 @@ from django.http import Http404
 from rest_framework import generics
 from rest_framework.exceptions import ParseError
 from . import filters
-
 from . import models
 from . import serializers
 
