@@ -6,3 +6,4 @@ virtual
 *.pyc
 activate.sh
 .tox
+Pipfile.lock
