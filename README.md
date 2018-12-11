@@ -8,6 +8,13 @@ Still work in progress (a.k.a. "works for me")
 
 `python setup.py bdist_wheel`
 
+## Project installation with Pipenv
+``` bash
+$ git clone https://github.com/apiraino/djangorestframework_custom_filters_ordering.git
+$ pipenv shell
+$ pipenv install
+```
+
 ## Requirements
 
 At the moment Django >= 1.10, DRF probably >= 3.x. Python 2.7 and 3.x (not tested on all configurations).
